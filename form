@@ -136,7 +136,7 @@ JotForm.paymentExtrasOnTheFly([null,null,{"name":"submit2","qid":"2","text":"Sub
           <select class="form-dropdown" id="input_14" name="q14_competingRegion" style="width:310px" data-component="dropdown">
             <option value=""> Please Select </option>
             <option value="Northland / Tai Tokerau"> Northland / Tai Tokerau </option>
-            <option value="Auckland / Tāmaki Makaurau "> Auckland / Tāmaki Makaurau </option>
+            <option value="615cfc3a7c34d5372cbfdbf4"> Auckland / Tāmaki Makaurau </option>
             <option value="Waikato"> Waikato </option>
             <option value="Bay of Plenty /  Te Moana-a-Toi"> Bay of Plenty / Te Moana-a-Toi </option>
             <option value="Hawke&#x27;s Bay / Te Matau-a-Māui"> Hawke&#x27;s Bay / Te Matau-a-Māui </option>
