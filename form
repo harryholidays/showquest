@@ -18,9 +18,9 @@ if (window.JotForm && JotForm.accessible) $('input_13').setAttribute('tabindex',
 	/*INIT-END*/
 	});
 
-   JotForm.prepareCalculationsOnTheFly([null,null,{"name":"submit2","qid":"2","text":"Submit","type":"control_button"},{"description":"","name":"name","qid":"3","text":"Name","type":"control_fullname"},{"description":"","name":"email","qid":"4","subLabel":"Note: Use regularly checked e-mail address — we will be sending out regular email updates with latest news, changes, deadline reminders and tips","text":"Email","type":"control_email"},{"description":"","name":"mobileNumber","qid":"5","text":"Mobile Number","type":"control_phone"},{"description":"","name":"password","qid":"6","subLabel":"","text":"Password","type":"control_textbox"},{"description":"","name":"confirmPassword","qid":"7","subLabel":"","text":"Confirm Password","type":"control_textbox"},null,{"description":"","name":"areYou","qid":"9","subLabel":"","text":"Are you signing up as a student or teacher?","type":"control_dropdown"},{"name":"divider","qid":"10","type":"control_divider"},null,{"description":"","name":"schoolName","qid":"12","subLabel":"","text":"School Name","type":"control_textbox"},{"description":"","name":"schoolStreet","qid":"13","subLabel":"","text":"School street address \u002F postal address","type":"control_textbox"},{"description":"","name":"competingRegion","qid":"14","subLabel":"","text":"Competing Region","type":"control_dropdown"},{"description":"","name":"openOr","qid":"15","subLabel":"","text":"Open or Junior","type":"control_dropdown"},null,{"name":"input17","qid":"17","text":"Extra Contact Details\nIf you would like all information to be sent to another party (e.g. a parent, student etc.)","type":"control_text"},{"name":"divider18","qid":"18","type":"control_divider"},{"description":"","name":"name19","qid":"19","text":"Name","type":"control_fullname"},{"description":"","name":"email20","qid":"20","subLabel":"example@example.com","text":"Email","type":"control_email"},{"description":"","name":"mobileNumber21","qid":"21","text":"Mobile Number","type":"control_phone"},null,{"name":"divider23","qid":"23","type":"control_divider"},null,{"description":"","name":"iAgree","qid":"25","text":"I agree","type":"control_checkbox"},{"name":"input26","qid":"26","text":"Condition of Entry*","type":"control_text"},{"name":"input27","qid":"27","text":"Note: OnScreen is only open to High Schools.","type":"control_text"},{"description":"","name":"pleaseSelect28","qid":"28","subLabel":"","text":"Please select which programme\u002Fs you are interested in registering for:","type":"control_dropdown"}]);
+   JotForm.prepareCalculationsOnTheFly([null,null,{"name":"submit2","qid":"2","text":"Submit","type":"control_button"},{"description":"","name":"name","qid":"3","text":"Name","type":"control_fullname"},{"description":"","name":"email","qid":"4","subLabel":"Note: Use regularly checked e-mail address — we will be sending out regular email updates with latest news, changes, deadline reminders and tips","text":"Email","type":"control_email"},{"description":"","name":"mobileNumber","qid":"5","text":"Mobile Number","type":"control_phone"},{"description":"","name":"password","qid":"6","subLabel":"","text":"Password","type":"control_textbox"},{"description":"","name":"confirmPassword","qid":"7","subLabel":"","text":"Confirm Password","type":"control_textbox"},null,{"description":"","name":"teacher-student","qid":"9","subLabel":"","text":"Are you signing up as a student or teacher?","type":"control_dropdown"},{"name":"divider","qid":"10","type":"control_divider"},null,{"description":"","name":"schoolName","qid":"12","subLabel":"","text":"School Name","type":"control_textbox"},{"description":"","name":"schoolStreet","qid":"13","subLabel":"","text":"School street address \u002F postal address","type":"control_textbox"},{"description":"","name":"competingRegion","qid":"14","subLabel":"","text":"Competing Region","type":"control_dropdown"},{"description":"","name":"openOr","qid":"15","subLabel":"","text":"Open or Junior","type":"control_dropdown"},null,{"name":"input17","qid":"17","text":"Extra Contact Details\nIf you would like all information to be sent to another party (e.g. a parent, student etc.)","type":"control_text"},{"name":"divider18","qid":"18","type":"control_divider"},{"description":"","name":"secondary-name","qid":"19","text":"Name","type":"control_fullname"},{"description":"","name":"email20","qid":"20","subLabel":"example@example.com","text":"Email","type":"control_email"},{"description":"","name":"secondary-number","qid":"21","text":"Mobile Number","type":"control_phone"},null,{"name":"divider23","qid":"23","type":"control_divider"},null,{"description":"","name":"Conditionsofentry","qid":"25","text":"I agree","type":"control_checkbox"},{"name":"input26","qid":"26","text":"Condition of Entry*","type":"control_text"},{"name":"input27","qid":"27","text":"Note: OnScreen is only open to High Schools.","type":"control_text"},{"description":"","name":"pleaseSelect28","qid":"28","subLabel":"","text":"Please select which programme\u002Fs you are interested in registering for:","type":"control_dropdown"}]);
    setTimeout(function() {
-JotForm.paymentExtrasOnTheFly([null,null,{"name":"submit2","qid":"2","text":"Submit","type":"control_button"},{"description":"","name":"name","qid":"3","text":"Name","type":"control_fullname"},{"description":"","name":"email","qid":"4","subLabel":"Note: Use regularly checked e-mail address — we will be sending out regular email updates with latest news, changes, deadline reminders and tips","text":"Email","type":"control_email"},{"description":"","name":"mobileNumber","qid":"5","text":"Mobile Number","type":"control_phone"},{"description":"","name":"password","qid":"6","subLabel":"","text":"Password","type":"control_textbox"},{"description":"","name":"confirmPassword","qid":"7","subLabel":"","text":"Confirm Password","type":"control_textbox"},null,{"description":"","name":"areYou","qid":"9","subLabel":"","text":"Are you signing up as a student or teacher?","type":"control_dropdown"},{"name":"divider","qid":"10","type":"control_divider"},null,{"description":"","name":"schoolName","qid":"12","subLabel":"","text":"School Name","type":"control_textbox"},{"description":"","name":"schoolStreet","qid":"13","subLabel":"","text":"School street address \u002F postal address","type":"control_textbox"},{"description":"","name":"competingRegion","qid":"14","subLabel":"","text":"Competing Region","type":"control_dropdown"},{"description":"","name":"openOr","qid":"15","subLabel":"","text":"Open or Junior","type":"control_dropdown"},null,{"name":"input17","qid":"17","text":"Extra Contact Details\nIf you would like all information to be sent to another party (e.g. a parent, student etc.)","type":"control_text"},{"name":"divider18","qid":"18","type":"control_divider"},{"description":"","name":"name19","qid":"19","text":"Name","type":"control_fullname"},{"description":"","name":"email20","qid":"20","subLabel":"example@example.com","text":"Email","type":"control_email"},{"description":"","name":"mobileNumber21","qid":"21","text":"Mobile Number","type":"control_phone"},null,{"name":"divider23","qid":"23","type":"control_divider"},null,{"description":"","name":"iAgree","qid":"25","text":"I agree","type":"control_checkbox"},{"name":"input26","qid":"26","text":"Condition of Entry*","type":"control_text"},{"name":"input27","qid":"27","text":"Note: OnScreen is only open to High Schools.","type":"control_text"},{"description":"","name":"pleaseSelect28","qid":"28","subLabel":"","text":"Please select which programme\u002Fs you are interested in registering for:","type":"control_dropdown"}]);}, 20); 
+JotForm.paymentExtrasOnTheFly([null,null,{"name":"submit2","qid":"2","text":"Submit","type":"control_button"},{"description":"","name":"name","qid":"3","text":"Name","type":"control_fullname"},{"description":"","name":"email","qid":"4","subLabel":"Note: Use regularly checked e-mail address — we will be sending out regular email updates with latest news, changes, deadline reminders and tips","text":"Email","type":"control_email"},{"description":"","name":"mobileNumber","qid":"5","text":"Mobile Number","type":"control_phone"},{"description":"","name":"password","qid":"6","subLabel":"","text":"Password","type":"control_textbox"},{"description":"","name":"confirmPassword","qid":"7","subLabel":"","text":"Confirm Password","type":"control_textbox"},null,{"description":"","name":"teacher-student","qid":"9","subLabel":"","text":"Are you signing up as a student or teacher?","type":"control_dropdown"},{"name":"divider","qid":"10","type":"control_divider"},null,{"description":"","name":"schoolName","qid":"12","subLabel":"","text":"School Name","type":"control_textbox"},{"description":"","name":"schoolStreet","qid":"13","subLabel":"","text":"School street address \u002F postal address","type":"control_textbox"},{"description":"","name":"competingRegion","qid":"14","subLabel":"","text":"Competing Region","type":"control_dropdown"},{"description":"","name":"openOr","qid":"15","subLabel":"","text":"Open or Junior","type":"control_dropdown"},null,{"name":"input17","qid":"17","text":"Extra Contact Details\nIf you would like all information to be sent to another party (e.g. a parent, student etc.)","type":"control_text"},{"name":"divider18","qid":"18","type":"control_divider"},{"description":"","name":"secondary-name","qid":"19","text":"Name","type":"control_fullname"},{"description":"","name":"email20","qid":"20","subLabel":"example@example.com","text":"Email","type":"control_email"},{"description":"","name":"secondary-number","qid":"21","text":"Mobile Number","type":"control_phone"},null,{"name":"divider23","qid":"23","type":"control_divider"},null,{"description":"","name":"Conditionsofentry","qid":"25","text":"I agree","type":"control_checkbox"},{"name":"input26","qid":"26","text":"Condition of Entry*","type":"control_text"},{"name":"input27","qid":"27","text":"Note: OnScreen is only open to High Schools.","type":"control_text"},{"description":"","name":"pleaseSelect28","qid":"28","subLabel":"","text":"Please select which programme\u002Fs you are interested in registering for:","type":"control_dropdown"}]);}, 20); 
 </script>
 <style type="text/css">@media print{.form-section{display:inline!important}.form-pagebreak{display:none!important}.form-section-closed{height:auto!important}.page-section{position:initial!important}}</style>
 <link type="text/css" rel="stylesheet" href="https://cdn01.jotfor.ms/themes/CSS/5e6b428acc8c4e222d1beb91.css?"/>
@@ -47,43 +47,58 @@ JotForm.paymentExtrasOnTheFly([null,null,{"name":"submit2","qid":"2","text":"Sub
       .form-all:before { background: none;}
     </style>
     <ul class="form-section page-section">
-      <li class="form-line" data-type="control_fullname" id="id_3">
-        <label class="form-label form-label-left form-label-auto" id="label_3" for="first_3"> Name </label>
-        <div id="cid_3" class="form-input" data-layout="full">
+      <li class="form-line jf-required" data-type="control_fullname" id="id_3">
+        <label class="form-label form-label-left form-label-auto" id="label_3" for="first_3">
+          Name
+          <span class="form-required">
+            *
+          </span>
+        </label>
+        <div id="cid_3" class="form-input jf-required" data-layout="full">
           <div data-wrapper-react="true">
             <span class="form-sub-label-container" style="vertical-align:top" data-input-type="first">
-              <input type="text" id="first_3" name="q3_name[first]" class="form-textbox" data-defaultvalue="" size="10" value="" data-component="first" aria-labelledby="label_3 sublabel_3_first" />
+              <input type="text" id="first_3" name="q3_name[first]" class="form-textbox validate[required]" data-defaultvalue="" size="10" value="" data-component="first" aria-labelledby="label_3 sublabel_3_first" required="" />
               <label class="form-sub-label" for="first_3" id="sublabel_3_first" style="min-height:13px" aria-hidden="false"> First Name </label>
             </span>
             <span class="form-sub-label-container" style="vertical-align:top" data-input-type="last">
-              <input type="text" id="last_3" name="q3_name[last]" class="form-textbox" data-defaultvalue="" size="15" value="" data-component="last" aria-labelledby="label_3 sublabel_3_last" />
+              <input type="text" id="last_3" name="q3_name[last]" class="form-textbox validate[required]" data-defaultvalue="" size="15" value="" data-component="last" aria-labelledby="label_3 sublabel_3_last" required="" />
               <label class="form-sub-label" for="last_3" id="sublabel_3_last" style="min-height:13px" aria-hidden="false"> Last Name </label>
             </span>
           </div>
         </div>
       </li>
-      <li class="form-line" data-type="control_email" id="id_4">
-        <label class="form-label form-label-left form-label-auto" id="label_4" for="input_4"> Email </label>
-        <div id="cid_4" class="form-input" data-layout="half">
+      <li class="form-line jf-required" data-type="control_email" id="id_4">
+        <label class="form-label form-label-left form-label-auto" id="label_4" for="input_4">
+          Email
+          <span class="form-required">
+            *
+          </span>
+        </label>
+        <div id="cid_4" class="form-input jf-required" data-layout="half">
           <span class="form-sub-label-container" style="vertical-align:top">
-            <input type="email" id="input_4" name="q4_email" class="form-textbox validate[Email]" data-defaultvalue="" style="width:310px" size="310" value="" data-component="email" aria-labelledby="label_4 sublabel_input_4" />
+            <input type="email" id="input_4" name="q4_email" class="form-textbox validate[required, Email]" data-defaultvalue="" style="width:310px" size="310" value="" data-component="email" aria-labelledby="label_4 sublabel_input_4" required="" />
             <label class="form-sub-label" for="input_4" id="sublabel_input_4" style="min-height:13px" aria-hidden="false"> Note: Use regularly checked e-mail address — we will be sending out regular email updates with latest news, changes, deadline reminders and tips </label>
           </span>
         </div>
       </li>
-      <li class="form-line" data-type="control_phone" id="id_5">
-        <label class="form-label form-label-left form-label-auto" id="label_5" for="input_5_area"> Mobile Number </label>
-        <div id="cid_5" class="form-input" data-layout="half">
+      <li class="form-line jf-required" data-type="control_phone" id="id_5">
+        <label class="form-label form-label-left form-label-auto" id="label_5" for="input_5_area">
+          Mobile Number
+          <span class="form-required">
+            *
+          </span>
+        </label>
+        <div id="cid_5" class="form-input jf-required" data-layout="half">
           <div data-wrapper-react="true">
             <span class="form-sub-label-container" style="vertical-align:top" data-input-type="areaCode">
-              <input type="tel" id="input_5_area" name="q5_mobileNumber[area]" class="form-textbox" data-defaultvalue="" value="" data-component="areaCode" aria-labelledby="label_5 sublabel_5_area" />
+              <input type="tel" id="input_5_area" name="q5_mobileNumber[area]" class="form-textbox validate[required]" data-defaultvalue="" value="" data-component="areaCode" aria-labelledby="label_5 sublabel_5_area" required="" />
               <span class="phone-separate" aria-hidden="true">
                  -
               </span>
               <label class="form-sub-label" for="input_5_area" id="sublabel_5_area" style="min-height:13px" aria-hidden="false"> Prefix </label>
             </span>
             <span class="form-sub-label-container" style="vertical-align:top" data-input-type="phone">
-              <input type="tel" id="input_5_phone" name="q5_mobileNumber[phone]" class="form-textbox" data-defaultvalue="" value="" data-component="phone" aria-labelledby="label_5 sublabel_5_phone" />
+              <input type="tel" id="input_5_phone" name="q5_mobileNumber[phone]" class="form-textbox validate[required]" data-defaultvalue="" value="" data-component="phone" aria-labelledby="label_5 sublabel_5_phone" required="" />
               <label class="form-sub-label" for="input_5_phone" id="sublabel_5_phone" style="min-height:13px" aria-hidden="false"> Phone Number </label>
             </span>
           </div>
@@ -101,10 +116,15 @@ JotForm.paymentExtrasOnTheFly([null,null,{"name":"submit2","qid":"2","text":"Sub
           <input type="text" id="input_7" name="q7_confirmPassword" data-type="input-textbox" class="form-textbox" data-defaultvalue="" style="width:310px" size="310" value="" data-component="textbox" aria-labelledby="label_7" />
         </div>
       </li>
-      <li class="form-line" data-type="control_dropdown" id="id_9">
-        <label class="form-label form-label-left form-label-auto" id="label_9" for="input_9"> Are you signing up as a student or teacher? </label>
-        <div id="cid_9" class="form-input" data-layout="half">
-          <select class="form-dropdown" id="input_9" name="q9_areYou" style="width:310px" data-component="dropdown">
+      <li class="form-line jf-required" data-type="control_dropdown" id="id_9">
+        <label class="form-label form-label-left form-label-auto" id="label_9" for="input_9">
+          Are you signing up as a student or teacher?
+          <span class="form-required">
+            *
+          </span>
+        </label>
+        <div id="cid_9" class="form-input jf-required" data-layout="half">
+          <select class="form-dropdown validate[required]" id="input_9" name="q9_teacher-student" style="width:310px" data-component="dropdown" required="">
             <option value=""> Please Select </option>
             <option value="Student"> Student </option>
             <option value="Teacher"> Teacher </option>
@@ -118,22 +138,37 @@ JotForm.paymentExtrasOnTheFly([null,null,{"name":"submit2","qid":"2","text":"Sub
           </div>
         </div>
       </li>
-      <li class="form-line" data-type="control_textbox" id="id_12">
-        <label class="form-label form-label-left form-label-auto" id="label_12" for="input_12"> School Name </label>
-        <div id="cid_12" class="form-input" data-layout="half">
-          <input type="text" id="input_12" name="q12_schoolName" data-type="input-textbox" class="form-textbox" data-defaultvalue="" style="width:310px" size="310" value="" data-component="textbox" aria-labelledby="label_12" />
+      <li class="form-line jf-required" data-type="control_textbox" id="id_12">
+        <label class="form-label form-label-left form-label-auto" id="label_12" for="input_12">
+          School Name
+          <span class="form-required">
+            *
+          </span>
+        </label>
+        <div id="cid_12" class="form-input jf-required" data-layout="half">
+          <input type="text" id="input_12" name="q12_schoolName" data-type="input-textbox" class="form-textbox validate[required]" data-defaultvalue="" style="width:310px" size="310" value="" data-component="textbox" aria-labelledby="label_12" required="" />
         </div>
       </li>
-      <li class="form-line" data-type="control_textbox" id="id_13">
-        <label class="form-label form-label-left form-label-auto" id="label_13" for="input_13"> School street address / postal address </label>
-        <div id="cid_13" class="form-input" data-layout="half">
-          <input type="text" id="input_13" name="q13_schoolStreet" data-type="input-textbox" class="form-textbox" data-defaultvalue="" style="width:310px" size="310" value="" data-component="textbox" aria-labelledby="label_13" />
+      <li class="form-line jf-required" data-type="control_textbox" id="id_13">
+        <label class="form-label form-label-left form-label-auto" id="label_13" for="input_13">
+          School street address / postal address
+          <span class="form-required">
+            *
+          </span>
+        </label>
+        <div id="cid_13" class="form-input jf-required" data-layout="half">
+          <input type="text" id="input_13" name="q13_schoolStreet" data-type="input-textbox" class="form-textbox validate[required]" data-defaultvalue="" style="width:310px" size="310" value="" data-component="textbox" aria-labelledby="label_13" required="" />
         </div>
       </li>
-      <li class="form-line" data-type="control_dropdown" id="id_14">
-        <label class="form-label form-label-left form-label-auto" id="label_14" for="input_14"> Competing Region </label>
-        <div id="cid_14" class="form-input" data-layout="half">
-          <select class="form-dropdown" id="input_14" name="q14_competingRegion" style="width:310px" data-component="dropdown">
+      <li class="form-line jf-required" data-type="control_dropdown" id="id_14">
+        <label class="form-label form-label-left form-label-auto" id="label_14" for="input_14">
+          Competing Region
+          <span class="form-required">
+            *
+          </span>
+        </label>
+        <div id="cid_14" class="form-input jf-required" data-layout="half">
+          <select class="form-dropdown validate[required]" id="input_14" name="q14_competingRegion" style="width:310px" data-component="dropdown" required="">
             <option value=""> Please Select </option>
             <option value="615cfc3a7c34d52d31bfda61+northland"> Northland / Tai Tokerau </option>
             <option value="615cfc3a7c34d5372cbfdbf4+auckland"> Auckland / Tāmaki Makaurau </option>
@@ -151,10 +186,15 @@ JotForm.paymentExtrasOnTheFly([null,null,{"name":"submit2","qid":"2","text":"Sub
           </select>
         </div>
       </li>
-      <li class="form-line" data-type="control_dropdown" id="id_15">
-        <label class="form-label form-label-left form-label-auto" id="label_15" for="input_15"> Open or Junior </label>
-        <div id="cid_15" class="form-input" data-layout="half">
-          <select class="form-dropdown" id="input_15" name="q15_openOr" style="width:310px" data-component="dropdown">
+      <li class="form-line jf-required" data-type="control_dropdown" id="id_15">
+        <label class="form-label form-label-left form-label-auto" id="label_15" for="input_15">
+          Open or Junior
+          <span class="form-required">
+            *
+          </span>
+        </label>
+        <div id="cid_15" class="form-input jf-required" data-layout="half">
+          <select class="form-dropdown validate[required]" id="input_15" name="q15_openOr" style="width:310px" data-component="dropdown" required="">
             <option value=""> Please Select </option>
             <option value="Open"> Open </option>
             <option value="Junior"> Junior </option>
@@ -207,11 +247,11 @@ JotForm.paymentExtrasOnTheFly([null,null,{"name":"submit2","qid":"2","text":"Sub
         <div id="cid_19" class="form-input" data-layout="full">
           <div data-wrapper-react="true">
             <span class="form-sub-label-container" style="vertical-align:top" data-input-type="first">
-              <input type="text" id="first_19" name="q19_name19[first]" class="form-textbox" data-defaultvalue="" size="10" value="" data-component="first" aria-labelledby="label_19 sublabel_19_first" />
+              <input type="text" id="first_19" name="q19_secondary-name[first]" class="form-textbox" data-defaultvalue="" size="10" value="" data-component="first" aria-labelledby="label_19 sublabel_19_first" />
               <label class="form-sub-label" for="first_19" id="sublabel_19_first" style="min-height:13px" aria-hidden="false"> First Name </label>
             </span>
             <span class="form-sub-label-container" style="vertical-align:top" data-input-type="last">
-              <input type="text" id="last_19" name="q19_name19[last]" class="form-textbox" data-defaultvalue="" size="15" value="" data-component="last" aria-labelledby="label_19 sublabel_19_last" />
+              <input type="text" id="last_19" name="q19_secondary-name[last]" class="form-textbox" data-defaultvalue="" size="15" value="" data-component="last" aria-labelledby="label_19 sublabel_19_last" />
               <label class="form-sub-label" for="last_19" id="sublabel_19_last" style="min-height:13px" aria-hidden="false"> Last Name </label>
             </span>
           </div>
@@ -231,14 +271,14 @@ JotForm.paymentExtrasOnTheFly([null,null,{"name":"submit2","qid":"2","text":"Sub
         <div id="cid_21" class="form-input" data-layout="half">
           <div data-wrapper-react="true">
             <span class="form-sub-label-container" style="vertical-align:top" data-input-type="areaCode">
-              <input type="tel" id="input_21_area" name="q21_mobileNumber21[area]" class="form-textbox" data-defaultvalue="" value="" data-component="areaCode" aria-labelledby="label_21 sublabel_21_area" />
+              <input type="tel" id="input_21_area" name="q21_secondary-number[area]" class="form-textbox" data-defaultvalue="" value="" data-component="areaCode" aria-labelledby="label_21 sublabel_21_area" />
               <span class="phone-separate" aria-hidden="true">
                  -
               </span>
               <label class="form-sub-label" for="input_21_area" id="sublabel_21_area" style="min-height:13px" aria-hidden="false"> Prefix </label>
             </span>
             <span class="form-sub-label-container" style="vertical-align:top" data-input-type="phone">
-              <input type="tel" id="input_21_phone" name="q21_mobileNumber21[phone]" class="form-textbox" data-defaultvalue="" value="" data-component="phone" aria-labelledby="label_21 sublabel_21_phone" />
+              <input type="tel" id="input_21_phone" name="q21_secondary-number[phone]" class="form-textbox" data-defaultvalue="" value="" data-component="phone" aria-labelledby="label_21 sublabel_21_phone" />
               <label class="form-sub-label" for="input_21_phone" id="sublabel_21_phone" style="min-height:13px" aria-hidden="false"> Phone Number </label>
             </span>
           </div>
@@ -271,7 +311,7 @@ JotForm.paymentExtrasOnTheFly([null,null,{"name":"submit2","qid":"2","text":"Sub
             <span class="form-checkbox-item" style="clear:left">
               <span class="dragger-item">
               </span>
-              <input type="checkbox" aria-describedby="label_25" class="form-checkbox validate[required]" id="input_25_0" name="q25_iAgree[]" value="I agree - All participants understand that by taking part in Showquest, they give consent for photos, filming, and recordings to be included as part of the Showquest Live Stream, Webisode, Website, Social Media, and future promotional campaign activity by Showquest, Rockquest Promotions Ltd, and Sponsors (Ministry of Education etc)" required="" />
+              <input type="checkbox" aria-describedby="label_25" class="form-checkbox validate[required]" id="input_25_0" name="q25_Conditionsofentry[]" value="I agree - All participants understand that by taking part in Showquest, they give consent for photos, filming, and recordings to be included as part of the Showquest Live Stream, Webisode, Website, Social Media, and future promotional campaign activity by Showquest, Rockquest Promotions Ltd, and Sponsors (Ministry of Education etc)" required="" />
               <label id="label_input_25_0" for="input_25_0"> I agree - All participants understand that by taking part in Showquest, they give consent for photos, filming, and recordings to be included as part of the Showquest Live Stream, Webisode, Website, Social Media, and future promotional campaign activity by Showquest, Rockquest Promotions Ltd, and Sponsors (Ministry of Education etc) </label>
             </span>
           </div>
