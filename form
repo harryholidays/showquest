@@ -170,7 +170,7 @@ JotForm.paymentExtrasOnTheFly([null,null,{"name":"submit2","qid":"2","text":"Sub
         <div id="cid_14" class="form-input jf-required" data-layout="half">
           <select class="form-dropdown validate[required]" id="input_14" name="q14_competingRegion" style="width:310px" data-component="dropdown" required="">
             <option value=""> Please Select </option>
-            <option value="615cfc3a7c34d52d31bfda61+northland"> Northland / Tai Tokerau </option>
+		<option value="615cfc3a7c34d52d31bfda61+northland"> Northland / Tai Tokerau </option>
             <option value="615cfc3a7c34d5372cbfdbf4+auckland"> Auckland / Tāmaki Makaurau </option>
             <option value="615cfc3a7c34d503f8bfd9bf+waikato"> Waikato </option>
             <option value="615cfc3a7c34d509b5bfdbf5+bay-of-plenty"> Bay of Plenty / Te Moana-a-Toi </option>
@@ -183,6 +183,7 @@ JotForm.paymentExtrasOnTheFly([null,null,{"name":"submit2","qid":"2","text":"Sub
             <option value="615cfc3a7c34d577c2bfda3a+otago"> Otago / Ōtākou </option>
             <option value="615cfc3a7c34d5fed7bfda4e+southland"> Southland / Murihiku </option>
             <option value="615cfc3a7c34d577bbbfdbee+pacific-islands"> Pacific Islands </option>
+       
           </select>
         </div>
       </li>
@@ -363,3 +364,4 @@ for (var i = 0; i < all_spc.length; i++)
 </form>
 <script src="https://cdn.jotfor.ms//js/vendor/smoothscroll.min.js?v=3.3.28507"></script>
 <script src="https://cdn.jotfor.ms//js/errorNavigation.js?v=3.3.28507"></script>
+            
