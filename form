@@ -10,17 +10,15 @@
 
 	JotForm.init(function(){
 	/*INIT-START*/
-if (window.JotForm && JotForm.accessible) $('input_6').setAttribute('tabindex',0);
-if (window.JotForm && JotForm.accessible) $('input_7').setAttribute('tabindex',0);
 if (window.JotForm && JotForm.accessible) $('input_12').setAttribute('tabindex',0);
 if (window.JotForm && JotForm.accessible) $('input_13').setAttribute('tabindex',0);
       JotForm.alterTexts(undefined);
 	/*INIT-END*/
 	});
 
-   JotForm.prepareCalculationsOnTheFly([null,null,{"name":"submit2","qid":"2","text":"Submit","type":"control_button"},{"description":"","name":"name","qid":"3","text":"Name","type":"control_fullname"},{"description":"","name":"email","qid":"4","subLabel":"Note: Use regularly checked e-mail address — we will be sending out regular email updates with latest news, changes, deadline reminders and tips","text":"Email","type":"control_email"},{"description":"","name":"mobileNumber","qid":"5","text":"Mobile Number","type":"control_phone"},{"description":"","name":"password","qid":"6","subLabel":"","text":"Password","type":"control_textbox"},{"description":"","name":"confirmPassword","qid":"7","subLabel":"","text":"Confirm Password","type":"control_textbox"},null,{"description":"","name":"teacher-student","qid":"9","subLabel":"","text":"Are you signing up as a student or teacher?","type":"control_dropdown"},{"name":"divider","qid":"10","type":"control_divider"},null,{"description":"","name":"schoolName","qid":"12","subLabel":"","text":"School Name","type":"control_textbox"},{"description":"","name":"schoolStreet","qid":"13","subLabel":"","text":"School street address \u002F postal address","type":"control_textbox"},{"description":"","name":"competingRegion","qid":"14","subLabel":"","text":"Competing Region","type":"control_dropdown"},{"description":"","name":"openOr","qid":"15","subLabel":"","text":"Open or Junior","type":"control_dropdown"},null,{"name":"input17","qid":"17","text":"Extra Contact Details\nIf you would like all information to be sent to another party (e.g. a parent, student etc.)","type":"control_text"},{"name":"divider18","qid":"18","type":"control_divider"},{"description":"","name":"secondary-name","qid":"19","text":"Name","type":"control_fullname"},{"description":"","name":"email20","qid":"20","subLabel":"example@example.com","text":"Email","type":"control_email"},{"description":"","name":"secondary-number","qid":"21","text":"Mobile Number","type":"control_phone"},null,{"name":"divider23","qid":"23","type":"control_divider"},null,{"description":"","name":"Conditionsofentry","qid":"25","text":"I agree","type":"control_checkbox"},{"name":"input26","qid":"26","text":"Condition of Entry*","type":"control_text"},{"name":"input27","qid":"27","text":"Note: OnScreen is only open to High Schools.","type":"control_text"},null,{"description":"","name":"pleaseSelect","qid":"29","text":"Please select which programme\u002Fs you are interested in registering for:","type":"control_checkbox"}]);
+   JotForm.prepareCalculationsOnTheFly([null,null,{"name":"submit2","qid":"2","text":"Submit","type":"control_button"},{"description":"","name":"name","qid":"3","text":"Name","type":"control_fullname"},{"description":"","name":"email","qid":"4","subLabel":"Note: Use regularly checked e-mail address — we will be sending out regular email updates with latest news, changes, deadline reminders and tips","text":"Email","type":"control_email"},{"description":"","name":"mobileNumber","qid":"5","text":"Mobile Number","type":"control_phone"},null,null,null,{"description":"","name":"teacher-student","qid":"9","subLabel":"","text":"Are you signing up as a student or teacher?","type":"control_dropdown"},{"name":"divider","qid":"10","type":"control_divider"},null,{"description":"","name":"schoolName","qid":"12","subLabel":"","text":"School Name","type":"control_textbox"},{"description":"","name":"schoolStreet","qid":"13","subLabel":"","text":"School street address \u002F postal address","type":"control_textbox"},{"description":"","name":"competingRegion","qid":"14","subLabel":"","text":"Competing Region","type":"control_dropdown"},{"description":"","name":"openOr","qid":"15","subLabel":"","text":"Open or Junior","type":"control_dropdown"},null,{"name":"input17","qid":"17","text":"Programme Selection\nYou must pick at least one of these\nNote: OnScreen is only open to High Schools.","type":"control_text"},{"name":"divider18","qid":"18","type":"control_divider"},{"description":"","name":"secondary-name","qid":"19","text":"Name","type":"control_fullname"},{"description":"","name":"email20","qid":"20","subLabel":"example@example.com","text":"Email","type":"control_email"},{"description":"","name":"secondary-number","qid":"21","text":"Mobile Number","type":"control_phone"},null,{"name":"divider23","qid":"23","type":"control_divider"},null,{"description":"","name":"Conditionsofentry","qid":"25","text":"I agree","type":"control_checkbox"},{"name":"input26","qid":"26","text":"Condition of Entry*","type":"control_text"},null,null,{"description":"","name":"pleaseSelect","qid":"29","text":"Please select which programme\u002Fs you are interested in registering for:","type":"control_checkbox"},{"name":"divider30","qid":"30","type":"control_divider"},{"name":"lth2gtextraContact","qid":"31","text":"Extra Contact Details\nIf you would like all information to be sent to another party (e.g. a parent, student etc.)","type":"control_text"},null,{"description":"","name":"showquest","qid":"33","text":"Showquest?","type":"control_radio"},{"description":"","name":"toi","qid":"34","text":"Toi?","type":"control_radio"},{"description":"","name":"onscreen","qid":"35","text":"Onscreen?","type":"control_radio"}]);
    setTimeout(function() {
-JotForm.paymentExtrasOnTheFly([null,null,{"name":"submit2","qid":"2","text":"Submit","type":"control_button"},{"description":"","name":"name","qid":"3","text":"Name","type":"control_fullname"},{"description":"","name":"email","qid":"4","subLabel":"Note: Use regularly checked e-mail address — we will be sending out regular email updates with latest news, changes, deadline reminders and tips","text":"Email","type":"control_email"},{"description":"","name":"mobileNumber","qid":"5","text":"Mobile Number","type":"control_phone"},{"description":"","name":"password","qid":"6","subLabel":"","text":"Password","type":"control_textbox"},{"description":"","name":"confirmPassword","qid":"7","subLabel":"","text":"Confirm Password","type":"control_textbox"},null,{"description":"","name":"teacher-student","qid":"9","subLabel":"","text":"Are you signing up as a student or teacher?","type":"control_dropdown"},{"name":"divider","qid":"10","type":"control_divider"},null,{"description":"","name":"schoolName","qid":"12","subLabel":"","text":"School Name","type":"control_textbox"},{"description":"","name":"schoolStreet","qid":"13","subLabel":"","text":"School street address \u002F postal address","type":"control_textbox"},{"description":"","name":"competingRegion","qid":"14","subLabel":"","text":"Competing Region","type":"control_dropdown"},{"description":"","name":"openOr","qid":"15","subLabel":"","text":"Open or Junior","type":"control_dropdown"},null,{"name":"input17","qid":"17","text":"Extra Contact Details\nIf you would like all information to be sent to another party (e.g. a parent, student etc.)","type":"control_text"},{"name":"divider18","qid":"18","type":"control_divider"},{"description":"","name":"secondary-name","qid":"19","text":"Name","type":"control_fullname"},{"description":"","name":"email20","qid":"20","subLabel":"example@example.com","text":"Email","type":"control_email"},{"description":"","name":"secondary-number","qid":"21","text":"Mobile Number","type":"control_phone"},null,{"name":"divider23","qid":"23","type":"control_divider"},null,{"description":"","name":"Conditionsofentry","qid":"25","text":"I agree","type":"control_checkbox"},{"name":"input26","qid":"26","text":"Condition of Entry*","type":"control_text"},{"name":"input27","qid":"27","text":"Note: OnScreen is only open to High Schools.","type":"control_text"},null,{"description":"","name":"pleaseSelect","qid":"29","text":"Please select which programme\u002Fs you are interested in registering for:","type":"control_checkbox"}]);}, 20); 
+JotForm.paymentExtrasOnTheFly([null,null,{"name":"submit2","qid":"2","text":"Submit","type":"control_button"},{"description":"","name":"name","qid":"3","text":"Name","type":"control_fullname"},{"description":"","name":"email","qid":"4","subLabel":"Note: Use regularly checked e-mail address — we will be sending out regular email updates with latest news, changes, deadline reminders and tips","text":"Email","type":"control_email"},{"description":"","name":"mobileNumber","qid":"5","text":"Mobile Number","type":"control_phone"},null,null,null,{"description":"","name":"teacher-student","qid":"9","subLabel":"","text":"Are you signing up as a student or teacher?","type":"control_dropdown"},{"name":"divider","qid":"10","type":"control_divider"},null,{"description":"","name":"schoolName","qid":"12","subLabel":"","text":"School Name","type":"control_textbox"},{"description":"","name":"schoolStreet","qid":"13","subLabel":"","text":"School street address \u002F postal address","type":"control_textbox"},{"description":"","name":"competingRegion","qid":"14","subLabel":"","text":"Competing Region","type":"control_dropdown"},{"description":"","name":"openOr","qid":"15","subLabel":"","text":"Open or Junior","type":"control_dropdown"},null,{"name":"input17","qid":"17","text":"Programme Selection\nYou must pick at least one of these\nNote: OnScreen is only open to High Schools.","type":"control_text"},{"name":"divider18","qid":"18","type":"control_divider"},{"description":"","name":"secondary-name","qid":"19","text":"Name","type":"control_fullname"},{"description":"","name":"email20","qid":"20","subLabel":"example@example.com","text":"Email","type":"control_email"},{"description":"","name":"secondary-number","qid":"21","text":"Mobile Number","type":"control_phone"},null,{"name":"divider23","qid":"23","type":"control_divider"},null,{"description":"","name":"Conditionsofentry","qid":"25","text":"I agree","type":"control_checkbox"},{"name":"input26","qid":"26","text":"Condition of Entry*","type":"control_text"},null,null,{"description":"","name":"pleaseSelect","qid":"29","text":"Please select which programme\u002Fs you are interested in registering for:","type":"control_checkbox"},{"name":"divider30","qid":"30","type":"control_divider"},{"name":"lth2gtextraContact","qid":"31","text":"Extra Contact Details\nIf you would like all information to be sent to another party (e.g. a parent, student etc.)","type":"control_text"},null,{"description":"","name":"showquest","qid":"33","text":"Showquest?","type":"control_radio"},{"description":"","name":"toi","qid":"34","text":"Toi?","type":"control_radio"},{"description":"","name":"onscreen","qid":"35","text":"Onscreen?","type":"control_radio"}]);}, 20); 
 </script>
 <style type="text/css">@media print{.form-section{display:inline!important}.form-pagebreak{display:none!important}.form-section-closed{height:auto!important}.page-section{position:initial!important}}</style>
 <link type="text/css" rel="stylesheet" href="https://cdn01.jotfor.ms/themes/CSS/5e6b428acc8c4e222d1beb91.css?"/>
@@ -104,18 +102,6 @@ JotForm.paymentExtrasOnTheFly([null,null,{"name":"submit2","qid":"2","text":"Sub
           </div>
         </div>
       </li>
-      <li class="form-line" data-type="control_textbox" id="id_6">
-        <label class="form-label form-label-left form-label-auto" id="label_6" for="input_6"> Password </label>
-        <div id="cid_6" class="form-input" data-layout="half">
-          <input type="text" id="input_6" name="q6_password" data-type="input-textbox" class="form-textbox" data-defaultvalue="" style="width:310px" size="310" value="" data-component="textbox" aria-labelledby="label_6" />
-        </div>
-      </li>
-      <li class="form-line" data-type="control_textbox" id="id_7">
-        <label class="form-label form-label-left form-label-auto" id="label_7" for="input_7"> Confirm Password </label>
-        <div id="cid_7" class="form-input" data-layout="half">
-          <input type="text" id="input_7" name="q7_confirmPassword" data-type="input-textbox" class="form-textbox" data-defaultvalue="" style="width:310px" size="310" value="" data-component="textbox" aria-labelledby="label_7" />
-        </div>
-      </li>
       <li class="form-line jf-required" data-type="control_dropdown" id="id_9">
         <label class="form-label form-label-left form-label-auto" id="label_9" for="input_9">
           Are you signing up as a student or teacher?
@@ -169,7 +155,7 @@ JotForm.paymentExtrasOnTheFly([null,null,{"name":"submit2","qid":"2","text":"Sub
         </label>
         <div id="cid_14" class="form-input jf-required" data-layout="half">
           <select class="form-dropdown validate[required]" id="input_14" name="q14_competingRegion" style="width:310px" data-component="dropdown" required="">
-            	<option value=""> Please Select </option>
+            <option value=""> Please Select </option>
 		<option value="615cfc3a7c34d56067bfdd36+northland"> Northland / Tai Tokerau </option>	
 		<option value="615cfc3a7c34d51428bfdd39+auckland"> Auckland / Tāmaki Makaurau </option>
 		<option value="615cfc3a7c34d5cbf1bfdd33+waikato"> Waikato </option>
@@ -201,14 +187,33 @@ JotForm.paymentExtrasOnTheFly([null,null,{"name":"submit2","qid":"2","text":"Sub
           </select>
         </div>
       </li>
-      <li class="form-line jf-required" data-type="control_checkbox" id="id_29">
+      <li class="form-line" data-type="control_divider" id="id_30">
+        <div id="cid_30" class="form-input-wide" data-layout="full">
+          <div aria-label="Divider" data-component="divider" style="border-bottom:1px solid #e6e6e6;height:1px;margin-left:0px;margin-right:0px;margin-top:5px;margin-bottom:5px">
+          </div>
+        </div>
+      </li>
+      <li class="form-line" data-type="control_text" id="id_17">
+        <div id="cid_17" class="form-input-wide" data-layout="full">
+          <div id="text_17" class="form-html" data-component="text">
+            <h2>
+              Programme Selection
+            </h2>
+            <h3>
+              You must pick at least one of these
+            </h3>
+            <p><em>Note: OnScreen is only open to High Schools.</em></p>
+          </div>
+        </div>
+      </li>
+      <li class="form-line always-hidden jf-required" data-type="control_checkbox" id="id_29">
         <label class="form-label form-label-left form-label-auto" id="label_29" for="input_29">
           Please select which programme/s you are interested in registering for:
           <span class="form-required">
             *
           </span>
         </label>
-        <div id="cid_29" class="form-input jf-required" data-layout="full">
+        <div id="cid_29" class="form-input always-hidden jf-required" data-layout="full">
           <div class="form-single-column" role="group" aria-labelledby="label_29" data-component="checkbox">
             <span class="form-checkbox-item" style="clear:left">
               <span class="dragger-item">
@@ -231,10 +236,42 @@ JotForm.paymentExtrasOnTheFly([null,null,{"name":"submit2","qid":"2","text":"Sub
           </div>
         </div>
       </li>
-      <li class="form-line form-line-column form-col-1" data-type="control_text" id="id_27">
-        <div id="cid_27" class="form-input-wide" data-layout="full">
-          <div id="text_27" class="form-html" data-component="text">
-            <p><em>Note: OnScreen is only open to High Schools.</em></p>
+      <li class="form-line" data-type="control_radio" id="id_33">
+        <label class="form-label form-label-left form-label-auto" id="label_33" for="input_33"> Showquest? </label>
+        <div id="cid_33" class="form-input" data-layout="full">
+          <div class="form-single-column" role="group" aria-labelledby="label_33" data-component="radio">
+            <span class="form-radio-item" style="clear:left">
+              <span class="dragger-item">
+              </span>
+              <input type="radio" aria-describedby="label_33" class="form-radio" id="input_33_0" name="q33_showquest" value="Yes" />
+              <label id="label_input_33_0" for="input_33_0"> Yes </label>
+            </span>
+          </div>
+        </div>
+      </li>
+      <li class="form-line" data-type="control_radio" id="id_34">
+        <label class="form-label form-label-left form-label-auto" id="label_34" for="input_34"> Toi? </label>
+        <div id="cid_34" class="form-input" data-layout="full">
+          <div class="form-single-column" role="group" aria-labelledby="label_34" data-component="radio">
+            <span class="form-radio-item" style="clear:left">
+              <span class="dragger-item">
+              </span>
+              <input type="radio" aria-describedby="label_34" class="form-radio" id="input_34_0" name="q34_toi" value="Yes" />
+              <label id="label_input_34_0" for="input_34_0"> Yes </label>
+            </span>
+          </div>
+        </div>
+      </li>
+      <li class="form-line" data-type="control_radio" id="id_35">
+        <label class="form-label form-label-left form-label-auto" id="label_35" for="input_35"> Onscreen? </label>
+        <div id="cid_35" class="form-input" data-layout="full">
+          <div class="form-single-column" role="group" aria-labelledby="label_35" data-component="radio">
+            <span class="form-radio-item" style="clear:left">
+              <span class="dragger-item">
+              </span>
+              <input type="radio" aria-describedby="label_35" class="form-radio" id="input_35_0" name="q35_onscreen" value="Yes" />
+              <label id="label_input_35_0" for="input_35_0"> Yes </label>
+            </span>
           </div>
         </div>
       </li>
@@ -244,9 +281,9 @@ JotForm.paymentExtrasOnTheFly([null,null,{"name":"submit2","qid":"2","text":"Sub
           </div>
         </div>
       </li>
-      <li class="form-line" data-type="control_text" id="id_17">
-        <div id="cid_17" class="form-input-wide" data-layout="full">
-          <div id="text_17" class="form-html" data-component="text">
+      <li class="form-line" data-type="control_text" id="id_31">
+        <div id="cid_31" class="form-input-wide" data-layout="full">
+          <div id="text_31" class="form-html" data-component="text">
             <h2>
               Extra Contact Details
             </h2>
@@ -347,7 +384,7 @@ JotForm.paymentExtrasOnTheFly([null,null,{"name":"submit2","qid":"2","text":"Sub
     </ul>
   </div>
   <script>
-  JotForm.showJotFormPowered = "old_footer";
+  JotForm.showJotFormPowered = "0";
   </script>
   <script>
   JotForm.poweredByText = "Powered by Jotform";
