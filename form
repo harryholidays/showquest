@@ -1,5 +1,5 @@
 <script src="https://cdn01.jotfor.ms/static/prototype.forms.js" type="text/javascript"></script>
-<script src="https://cdn02.jotfor.ms/static/jotform.forms.js?3.3.28507" type="text/javascript"></script>
+<script src="https://cdn02.jotfor.ms/static/jotform.forms.js?3.3.28679" type="text/javascript"></script>
 <script defer src="https://cdnjs.cloudflare.com/ajax/libs/punycode/1.4.1/punycode.js"></script>
 <script type="text/javascript">	JotForm.newDefaultTheme = true;
 	JotForm.extendsNewTheme = false;
@@ -12,18 +12,20 @@
 	/*INIT-START*/
 if (window.JotForm && JotForm.accessible) $('input_12').setAttribute('tabindex',0);
 if (window.JotForm && JotForm.accessible) $('input_13').setAttribute('tabindex',0);
+if (window.JotForm && JotForm.accessible) $('input_37').setAttribute('tabindex',0);
+      JotForm.setCustomHint( 'input_37', 'Type here...' );
       JotForm.alterTexts(undefined);
 	/*INIT-END*/
 	});
 
-   JotForm.prepareCalculationsOnTheFly([null,null,{"name":"submit2","qid":"2","text":"Submit","type":"control_button"},{"description":"","name":"name","qid":"3","text":"Name","type":"control_fullname"},{"description":"","name":"email","qid":"4","subLabel":"Note: Use regularly checked e-mail address — we will be sending out regular email updates with latest news, changes, deadline reminders and tips","text":"Email","type":"control_email"},{"description":"","name":"mobileNumber","qid":"5","text":"Mobile Number","type":"control_phone"},null,null,null,{"description":"","name":"teacher-student","qid":"9","subLabel":"","text":"Are you signing up as a student or teacher?","type":"control_dropdown"},{"name":"divider","qid":"10","type":"control_divider"},null,{"description":"","name":"schoolName","qid":"12","subLabel":"","text":"School Name","type":"control_textbox"},{"description":"","name":"schoolStreet","qid":"13","subLabel":"","text":"School street address \u002F postal address","type":"control_textbox"},{"description":"","name":"competingRegion","qid":"14","subLabel":"","text":"Competing Region","type":"control_dropdown"},{"description":"","name":"openOr","qid":"15","subLabel":"","text":"Open or Junior","type":"control_dropdown"},null,{"name":"input17","qid":"17","text":"Programme Selection\nYou must pick at least one of these\nNote: OnScreen is only open to High Schools.","type":"control_text"},{"name":"divider18","qid":"18","type":"control_divider"},{"description":"","name":"secondary-name","qid":"19","text":"Name","type":"control_fullname"},{"description":"","name":"email20","qid":"20","subLabel":"example@example.com","text":"Email","type":"control_email"},{"description":"","name":"secondary-number","qid":"21","text":"Mobile Number","type":"control_phone"},null,{"name":"divider23","qid":"23","type":"control_divider"},null,{"description":"","name":"Conditionsofentry","qid":"25","text":"I agree","type":"control_checkbox"},{"name":"input26","qid":"26","text":"Condition of Entry*","type":"control_text"},null,null,null,{"name":"divider30","qid":"30","type":"control_divider"},{"name":"lth2gtextraContact","qid":"31","text":"Extra Contact Details\nIf you would like all information to be sent to another party (e.g. a parent, student etc.)","type":"control_text"},null,{"description":"","name":"showquest","qid":"33","text":"Showquest?","type":"control_radio"},{"description":"","name":"toi","qid":"34","text":"Toi?","type":"control_radio"},{"description":"","name":"onscreen","qid":"35","text":"Onscreen?","type":"control_radio"}]);
+   JotForm.prepareCalculationsOnTheFly([null,null,{"name":"submit2","qid":"2","text":"Submit","type":"control_button"},{"description":"","name":"name","qid":"3","text":"Name","type":"control_fullname"},{"description":"","name":"email","qid":"4","subLabel":"Note: Use regularly checked e-mail address — we will be sending out regular email updates with latest news, changes, deadline reminders and tips","text":"Email","type":"control_email"},{"description":"","name":"mobileNumber","qid":"5","text":"Mobile Number","type":"control_phone"},null,null,null,{"description":"","name":"teacher-student","qid":"9","subLabel":"","text":"Are you signing up as a student or teacher?","type":"control_dropdown"},{"name":"divider","qid":"10","type":"control_divider"},null,{"description":"","name":"schoolName","qid":"12","subLabel":"","text":"School Name","type":"control_textbox"},{"description":"","name":"schoolStreet","qid":"13","subLabel":"","text":"School street address \u002F postal address","type":"control_textbox"},{"description":"","name":"competingRegion","qid":"14","subLabel":"","text":"Competing Region","type":"control_dropdown"},{"description":"","name":"openOr","qid":"15","subLabel":"","text":"Open or Junior","type":"control_dropdown"},null,{"name":"input17","qid":"17","text":"Programme Selection\nYou must pick at least one of these\nNote: OnScreen is only open to High Schools.","type":"control_text"},{"name":"divider18","qid":"18","type":"control_divider"},{"description":"","name":"secondary-name","qid":"19","text":"Name","type":"control_fullname"},{"description":"","name":"email20","qid":"20","subLabel":"example@example.com","text":"Email","type":"control_email"},{"description":"","name":"secondary-number","qid":"21","text":"Mobile Number","type":"control_phone"},null,{"name":"divider23","qid":"23","type":"control_divider"},null,{"description":"","name":"Conditionsofentry","qid":"25","text":"I agree","type":"control_checkbox"},{"name":"input26","qid":"26","text":"Condition of Entry*","type":"control_text"},null,null,null,{"name":"divider30","qid":"30","type":"control_divider"},{"name":"lth2gtextraContact","qid":"31","text":"Extra Contact Details\nIf you would like all information to be sent to another party (e.g. a parent, student etc.)","type":"control_text"},null,{"description":"","name":"showquest","qid":"33","text":"Showquest?","type":"control_radio"},{"description":"","name":"toi","qid":"34","text":"Toi?","type":"control_radio"},{"description":"","name":"onscreen","qid":"35","text":"Onscreen?","type":"control_radio"},{"name":"divider36","qid":"36","type":"control_divider"},{"description":"","name":"extraComments","qid":"37","subLabel":"","text":"Extra Comments?","type":"control_textarea"}]);
    setTimeout(function() {
-JotForm.paymentExtrasOnTheFly([null,null,{"name":"submit2","qid":"2","text":"Submit","type":"control_button"},{"description":"","name":"name","qid":"3","text":"Name","type":"control_fullname"},{"description":"","name":"email","qid":"4","subLabel":"Note: Use regularly checked e-mail address — we will be sending out regular email updates with latest news, changes, deadline reminders and tips","text":"Email","type":"control_email"},{"description":"","name":"mobileNumber","qid":"5","text":"Mobile Number","type":"control_phone"},null,null,null,{"description":"","name":"teacher-student","qid":"9","subLabel":"","text":"Are you signing up as a student or teacher?","type":"control_dropdown"},{"name":"divider","qid":"10","type":"control_divider"},null,{"description":"","name":"schoolName","qid":"12","subLabel":"","text":"School Name","type":"control_textbox"},{"description":"","name":"schoolStreet","qid":"13","subLabel":"","text":"School street address \u002F postal address","type":"control_textbox"},{"description":"","name":"competingRegion","qid":"14","subLabel":"","text":"Competing Region","type":"control_dropdown"},{"description":"","name":"openOr","qid":"15","subLabel":"","text":"Open or Junior","type":"control_dropdown"},null,{"name":"input17","qid":"17","text":"Programme Selection\nYou must pick at least one of these\nNote: OnScreen is only open to High Schools.","type":"control_text"},{"name":"divider18","qid":"18","type":"control_divider"},{"description":"","name":"secondary-name","qid":"19","text":"Name","type":"control_fullname"},{"description":"","name":"email20","qid":"20","subLabel":"example@example.com","text":"Email","type":"control_email"},{"description":"","name":"secondary-number","qid":"21","text":"Mobile Number","type":"control_phone"},null,{"name":"divider23","qid":"23","type":"control_divider"},null,{"description":"","name":"Conditionsofentry","qid":"25","text":"I agree","type":"control_checkbox"},{"name":"input26","qid":"26","text":"Condition of Entry*","type":"control_text"},null,null,null,{"name":"divider30","qid":"30","type":"control_divider"},{"name":"lth2gtextraContact","qid":"31","text":"Extra Contact Details\nIf you would like all information to be sent to another party (e.g. a parent, student etc.)","type":"control_text"},null,{"description":"","name":"showquest","qid":"33","text":"Showquest?","type":"control_radio"},{"description":"","name":"toi","qid":"34","text":"Toi?","type":"control_radio"},{"description":"","name":"onscreen","qid":"35","text":"Onscreen?","type":"control_radio"}]);}, 20); 
+JotForm.paymentExtrasOnTheFly([null,null,{"name":"submit2","qid":"2","text":"Submit","type":"control_button"},{"description":"","name":"name","qid":"3","text":"Name","type":"control_fullname"},{"description":"","name":"email","qid":"4","subLabel":"Note: Use regularly checked e-mail address — we will be sending out regular email updates with latest news, changes, deadline reminders and tips","text":"Email","type":"control_email"},{"description":"","name":"mobileNumber","qid":"5","text":"Mobile Number","type":"control_phone"},null,null,null,{"description":"","name":"teacher-student","qid":"9","subLabel":"","text":"Are you signing up as a student or teacher?","type":"control_dropdown"},{"name":"divider","qid":"10","type":"control_divider"},null,{"description":"","name":"schoolName","qid":"12","subLabel":"","text":"School Name","type":"control_textbox"},{"description":"","name":"schoolStreet","qid":"13","subLabel":"","text":"School street address \u002F postal address","type":"control_textbox"},{"description":"","name":"competingRegion","qid":"14","subLabel":"","text":"Competing Region","type":"control_dropdown"},{"description":"","name":"openOr","qid":"15","subLabel":"","text":"Open or Junior","type":"control_dropdown"},null,{"name":"input17","qid":"17","text":"Programme Selection\nYou must pick at least one of these\nNote: OnScreen is only open to High Schools.","type":"control_text"},{"name":"divider18","qid":"18","type":"control_divider"},{"description":"","name":"secondary-name","qid":"19","text":"Name","type":"control_fullname"},{"description":"","name":"email20","qid":"20","subLabel":"example@example.com","text":"Email","type":"control_email"},{"description":"","name":"secondary-number","qid":"21","text":"Mobile Number","type":"control_phone"},null,{"name":"divider23","qid":"23","type":"control_divider"},null,{"description":"","name":"Conditionsofentry","qid":"25","text":"I agree","type":"control_checkbox"},{"name":"input26","qid":"26","text":"Condition of Entry*","type":"control_text"},null,null,null,{"name":"divider30","qid":"30","type":"control_divider"},{"name":"lth2gtextraContact","qid":"31","text":"Extra Contact Details\nIf you would like all information to be sent to another party (e.g. a parent, student etc.)","type":"control_text"},null,{"description":"","name":"showquest","qid":"33","text":"Showquest?","type":"control_radio"},{"description":"","name":"toi","qid":"34","text":"Toi?","type":"control_radio"},{"description":"","name":"onscreen","qid":"35","text":"Onscreen?","type":"control_radio"},{"name":"divider36","qid":"36","type":"control_divider"},{"description":"","name":"extraComments","qid":"37","subLabel":"","text":"Extra Comments?","type":"control_textarea"}]);}, 20); 
 </script>
 <style type="text/css">@media print{.form-section{display:inline!important}.form-pagebreak{display:none!important}.form-section-closed{height:auto!important}.page-section{position:initial!important}}</style>
 <link type="text/css" rel="stylesheet" href="https://cdn01.jotfor.ms/themes/CSS/5e6b428acc8c4e222d1beb91.css?"/>
-<link type="text/css" rel="stylesheet" href="https://cdn02.jotfor.ms/css/styles/payment/payment_styles.css?3.3.28507" />
-<link type="text/css" rel="stylesheet" href="https://cdn03.jotfor.ms/css/styles/payment/payment_feature.css?3.3.28507" />
+<link type="text/css" rel="stylesheet" href="https://cdn02.jotfor.ms/css/styles/payment/payment_styles.css?3.3.28679" />
+<link type="text/css" rel="stylesheet" href="https://cdn03.jotfor.ms/css/styles/payment/payment_feature.css?3.3.28679" />
 <style type="text/css" id="form-designer-style">
     /* Injected CSS Code */
 .form-label.form-label-auto {
@@ -169,6 +171,7 @@ JotForm.paymentExtrasOnTheFly([null,null,{"name":"submit2","qid":"2","text":"Sub
 		<option value="615cfc3a7c34d50181bfdd34+otago"> Otago / Ōtākou </option>
 		<option value="615cfc3a7c34d52ce8bfdd35+southland"> Southland / Murihiku </option>
 		<option value="615cfc3a7c34d57a12bfdbef+pacific-islands"> Pacific Islands </option>
+          
           </select>
         </div>
       </li>
@@ -213,7 +216,7 @@ JotForm.paymentExtrasOnTheFly([null,null,{"name":"submit2","qid":"2","text":"Sub
             <span class="form-radio-item" style="clear:left">
               <span class="dragger-item">
               </span>
-              <input type="radio" aria-describedby="label_33" class="form-radio" id="input_33_0" name="q33_showquest" value="True" />
+              <input type="radio" aria-describedby="label_33" class="form-radio" id="input_33_0" name="q33_showquest" value="Yes" />
               <label id="label_input_33_0" for="input_33_0"> Yes </label>
             </span>
           </div>
@@ -226,7 +229,7 @@ JotForm.paymentExtrasOnTheFly([null,null,{"name":"submit2","qid":"2","text":"Sub
             <span class="form-radio-item" style="clear:left">
               <span class="dragger-item">
               </span>
-              <input type="radio" aria-describedby="label_34" class="form-radio" id="input_34_0" name="q34_toi" value="True" />
+              <input type="radio" aria-describedby="label_34" class="form-radio" id="input_34_0" name="q34_toi" value="Yes" />
               <label id="label_input_34_0" for="input_34_0"> Yes </label>
             </span>
           </div>
@@ -239,7 +242,7 @@ JotForm.paymentExtrasOnTheFly([null,null,{"name":"submit2","qid":"2","text":"Sub
             <span class="form-radio-item" style="clear:left">
               <span class="dragger-item">
               </span>
-              <input type="radio" aria-describedby="label_35" class="form-radio" id="input_35_0" name="q35_onscreen" value="True" />
+              <input type="radio" aria-describedby="label_35" class="form-radio" id="input_35_0" name="q35_onscreen" value="Yes" />
               <label id="label_input_35_0" for="input_35_0"> Yes </label>
             </span>
           </div>
@@ -338,6 +341,18 @@ JotForm.paymentExtrasOnTheFly([null,null,{"name":"submit2","qid":"2","text":"Sub
           </div>
         </div>
       </li>
+      <li class="form-line" data-type="control_divider" id="id_36">
+        <div id="cid_36" class="form-input-wide" data-layout="full">
+          <div aria-label="Divider" data-component="divider" style="border-bottom:1px solid #e6e6e6;height:1px;margin-left:0px;margin-right:0px;margin-top:5px;margin-bottom:5px">
+          </div>
+        </div>
+      </li>
+      <li class="form-line" data-type="control_textarea" id="id_37">
+        <label class="form-label form-label-left form-label-auto" id="label_37" for="input_37"> Extra Comments? </label>
+        <div id="cid_37" class="form-input" data-layout="full">
+          <textarea id="input_37" class="form-textarea" name="q37_extraComments" style="width:648px;height:163px" data-component="textarea" aria-labelledby="label_37"></textarea>
+        </div>
+      </li>
       <li class="form-line" data-type="control_button" id="id_2">
         <div id="cid_2" class="form-input-wide" data-layout="full">
           <div data-align="auto" class="form-buttons-wrapper form-buttons-auto   jsTest-button-wrapperField">
@@ -368,7 +383,5 @@ for (var i = 0; i < all_spc.length; i++)
 }
   </script>
 </form>
-<script src="https://cdn.jotfor.ms//js/vendor/smoothscroll.min.js?v=3.3.28507"></script>
-<script src="https://cdn.jotfor.ms//js/errorNavigation.js?v=3.3.28507"></script>
-         
-         
+<script src="https://cdn.jotfor.ms//js/vendor/smoothscroll.min.js?v=3.3.28679"></script>
+<script src="https://cdn.jotfor.ms//js/errorNavigation.js?v=3.3.28679"></script>
