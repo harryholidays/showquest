@@ -157,7 +157,7 @@ JotForm.paymentExtrasOnTheFly([null,null,{"name":"submit2","qid":"2","text":"Sub
         </label>
         <div id="cid_14" class="form-input jf-required" data-layout="half">
           <select class="form-dropdown validate[required]" id="input_14" name="q14_competingRegion" style="width:310px" data-component="dropdown" required="">
-            <option value=""> Please Select </option>
+            	<option value=""> Please Select </option>
 		<option value="615cfc3a7c34d56067bfdd36+northland"> Northland / Tai Tokerau </option>	
 		<option value="615cfc3a7c34d51428bfdd39+auckland"> Auckland / Tāmaki Makaurau </option>
 		<option value="615cfc3a7c34d5cbf1bfdd33+waikato"> Waikato </option>
