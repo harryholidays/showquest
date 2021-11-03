@@ -216,7 +216,7 @@ JotForm.paymentExtrasOnTheFly([null,null,{"name":"submit2","qid":"2","text":"Sub
             <span class="form-radio-item" style="clear:left">
               <span class="dragger-item">
               </span>
-              <input type="radio" aria-describedby="label_33" class="form-radio" id="input_33_0" name="q33_showquest" value="True" />
+              <input type="radio" aria-describedby="label_33" class="form-radio" id="input_33_0" name="q33_showquest" value="TRUE" />
               <label id="label_input_33_0" for="input_33_0"> Yes </label>
             </span>
           </div>
@@ -229,7 +229,7 @@ JotForm.paymentExtrasOnTheFly([null,null,{"name":"submit2","qid":"2","text":"Sub
             <span class="form-radio-item" style="clear:left">
               <span class="dragger-item">
               </span>
-              <input type="radio" aria-describedby="label_34" class="form-radio" id="input_34_0" name="q34_toi" value="True" />
+              <input type="radio" aria-describedby="label_34" class="form-radio" id="input_34_0" name="q34_toi" value="TRUE" />
               <label id="label_input_34_0" for="input_34_0"> Yes </label>
             </span>
           </div>
@@ -242,7 +242,7 @@ JotForm.paymentExtrasOnTheFly([null,null,{"name":"submit2","qid":"2","text":"Sub
             <span class="form-radio-item" style="clear:left">
               <span class="dragger-item">
               </span>
-              <input type="radio" aria-describedby="label_35" class="form-radio" id="input_35_0" name="q35_onscreen" value="True" />
+              <input type="radio" aria-describedby="label_35" class="form-radio" id="input_35_0" name="q35_onscreen" value="TRUE" />
               <label id="label_input_35_0" for="input_35_0"> Yes </label>
             </span>
           </div>
